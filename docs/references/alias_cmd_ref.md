@@ -87,6 +87,7 @@ See the "Text to Pilots" section for more context.
 |   .MIL <br> MTR   |   ISR of specific phraseology and rules associated with a Military Training Route (MTR).   |   .MILMTR   |      |
 |   .MIL <br> CT   |   ISR of specific phraseology and rules associated with a military takeoff clearances.   |   .MILCT   |   No need for TTP because the standard .TCT is formatted this way.   |
 |   .MIL <br> CL   |   ISR of specific phraseology and rules associated with a military landing clearances.   |   .MILCL   |   No need for TTP because the standard .TCL is formatted this way.   |
+|   .MIL <br> SCRAMBLE ``(space)`` <br> ({== Nearby VOR ID ==})   |   With the subject aircraft selected, sends a request to vSOA to intercept the subject aircraft.   |   .MILSCAMBLE {==DJB==}   |   Do not use unless specifically authorized by vZOB management.   |
 
 ### Help A Pilot In Need
 |   SYNTAX   |   DESCRIPTION   |   EXAMPLE   |   NOTES   |
